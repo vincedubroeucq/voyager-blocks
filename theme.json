@@ -213,6 +213,10 @@
 		}
 	},
 	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|rubik",
 			"fontSize": "var:preset|font-size|medium",
@@ -220,6 +224,63 @@
 			"lineHeight": "1.6"
 		},
 		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|orange-4"
+				},
+				":hover": {
+					"color": {
+						"text": "var:preset|color|orange-5"
+					}
+				},
+				":focus": {
+					"color": {
+						"text": "var:preset|color|orange-5"
+					},
+					"outline": {
+						"color": "var:preset|color|orange-4",
+						"offset": "2px",
+						"style": "dotted",
+						"width": "2px"
+					}
+				}
+			},
+			"button": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"textTransform": "uppercase",
+					"letterSpacing": ".5px",
+					"fontWeight": "bold",
+					"lineHeight": "1"
+				},
+				"color": {
+					"background": "var:preset|color|orange-5",
+					"text": "var:preset|color|base"
+				},
+				":focus": {
+					"outline": {
+						"color": "var:preset|color|orange-4",
+						"offset": "2px",
+						"style": "dotted",
+						"width": "2px"
+					}
+				},
+				":hover": {
+					"color": {
+						"background": "var:preset|color|orange-4",
+						"text": "var:preset|color|base"
+					},
+					"border": {
+						"color": "var:preset|color|orange-4"
+					}
+				},
+				"border": {
+					"radius": "0",
+					"width": "2px",
+					"color": "var:preset|color|orange-5",
+					"style": "solid"
+				}
+			},
 			"heading": {
 				"typography": {
 					"fontWeight": "700",
