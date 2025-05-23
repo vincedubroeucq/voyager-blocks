@@ -120,6 +120,96 @@
 					}
 				}
 			]
+		},
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#141412",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#3b3b3b",
+					"name": "Dark grey",
+					"slug": "grey-4"
+				},
+				{
+					"color": "#808080",
+					"name": "Grey",
+					"slug": "grey-3"
+				},
+				{
+					"color": "#bfbfbf",
+					"name": "Soft grey",
+					"slug": "grey-2"
+				},
+				{
+					"color": "#e0e0e0",
+					"name": "Light grey",
+					"slug": "grey-1"
+				},
+				{
+					"color": "#fafafa",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#cc3d00",
+					"name": "Darkest orange",
+					"slug": "orange-5"
+				},
+				{
+					"color": "#e95b02",
+					"name": "Dark orange",
+					"slug": "orange-4"
+				},
+				{
+					"color": "#ff7033",
+					"name": "Orange",
+					"slug": "orange-3"
+				},
+				{
+					"color": "#ffa782",
+					"name": "Soft orange",
+					"slug": "orange-2"
+				},
+				{
+					"color": "#ffdbcc",
+					"name": "Light orange",
+					"slug": "orange-1"
+				},
+				{
+					"color": "#fff4f0",
+					"name": "Lightest orange",
+					"slug": "orange-0"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(to bottom, transparent 50%, var(--wp--preset--color--contrast))",
+					"name": "Text overlay - bottom",
+					"slug": "text-overlay-bottom"
+				}
+			],
+			"duotone": [
+				{
+					"colors": [
+						"#141412",
+						"#cc3d00"
+					],
+					"name": "Dark Orange",
+					"slug": "dark-orange"
+				},
+				{
+					"colors": [
+						"#141412",
+						"#ffa782"
+					],
+					"name": "Soft Orange",
+					"slug": "soft-orange"
+				}
+			]
 		}
 	},
 	"styles": {
