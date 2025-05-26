@@ -258,6 +258,21 @@
 					"slug": "soft-orange"
 				}
 			]
+		},
+		"shadow": {
+			"defaultPresets": false,
+			"presets": [
+				{
+					"name": "Short",
+					"slug": "short",
+					"shadow": "0px 6px 9px rgba(20, 20, 18, 0.2)"
+				},
+				{
+					"name": "Large",
+					"slug": "large",
+					"shadow": "0px 12px 50px rgba(20, 20, 18, 0.4)"
+				}
+			]
 		}
 	},
 	"styles": {
@@ -314,6 +329,7 @@
 					"background": "var:preset|color|orange-5",
 					"text": "var:preset|color|base"
 				},
+				"css": "transition: all .25s ease-in-out",
 				":focus": {
 					"outline": {
 						"color": "var:preset|color|orange-4",
@@ -329,7 +345,8 @@
 					},
 					"border": {
 						"color": "var:preset|color|orange-4"
-					}
+					},
+					"shadow": "var:preset|shadow|short"
 				},
 				"border": {
 					"radius": "0",
