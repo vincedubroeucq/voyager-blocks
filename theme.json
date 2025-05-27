@@ -439,6 +439,27 @@
 						"css": "text-align: right"
 					}
 				}
+			},
+			"core/button": {
+				"variations": {
+					"outline": {
+						"color": {
+							"text": "var:preset|color|orange-5"
+						},
+						"border": {
+							"color": "currentColor"
+						},
+						"spacing": {
+							"padding": {
+								"bottom": "var:preset|spacing|30",
+								"left": "var:preset|spacing|40",
+								"right": "var:preset|spacing|40",
+								"top": "var:preset|spacing|30"
+							}
+						},
+						"css": ".wp-block-button__link:not(.has-background):hover {color: var(--wp--preset--color--orange-4)}"
+					}
+				}
 			}
 		}
 	},
