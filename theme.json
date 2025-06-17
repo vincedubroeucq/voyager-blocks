@@ -157,6 +157,11 @@
 					"name": "Huge",
 					"size": "6rem",
 					"slug": "90"
+				},
+				{
+					"name": "auto",
+					"size": "auto",
+					"slug": "auto"
 				}
 			],
 			"units": [
