@@ -337,10 +337,53 @@
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
+			"core/search": {
+				"css": "",
+				"elements": {
+					"button": {
+						"spacing": {
+							"margin": {
+								"left": "0"
+							},
+							"padding": {
+								"bottom": "var(--wp--preset--spacing--20)",
+								"left": "var(--wp--preset--spacing--20)",
+								"right": "var(--wp--preset--spacing--20)",
+								"top": "var(--wp--preset--spacing--20)"
+							}
+						}
+					}
+				},
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"textTransform": "none"
+				}
+			},
+			"core/site-tagline": {
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--tiny)",
+					"lineHeight": "1",
+					"textTransform": "uppercase"
+				}
+			},
 			"core/site-title": {
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					}
+				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"lineHeight": "1"
+					"lineHeight": "1",
+					"textTransform": "uppercase"
 				}
 			}
 		},

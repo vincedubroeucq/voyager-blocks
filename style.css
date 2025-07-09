@@ -13,3 +13,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: voyager
 Tags: 
 */
+
+.wp-block-search .wp-block-search__inside-wrapper {
+    padding: 0;
+    border-color: var(--wp--preset--color--contrast);
+}
+
+.wp-block-search .wp-block-search__inside-wrapper input {
+    padding: var(--wp--preset--spacing--20);
+}
+
+@media screen and (min-width: 600px) {
+    nav.wp-block-navigation {
+        flex: 1;
+    }
+
+    .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
+        justify-content: space-between;
+    }
+}
