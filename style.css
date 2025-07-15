@@ -24,11 +24,16 @@ Tags:
 }
 
 @media screen and (min-width: 600px) {
-    nav.wp-block-navigation {
+    #header nav.wp-block-navigation {
         flex: 1;
     }
 
-    .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
+    #header .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
+        justify-content: space-between;
+    }
+
+    #footer .wp-block-group.is-vertical {
+        flex-direction: row;
         justify-content: space-between;
     }
 }
