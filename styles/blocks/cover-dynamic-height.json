@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+    "version": 3,
+    "title": "Dynamic height",
+    "slug": "dynamic-height",
+    "blockTypes": [
+        "core/cover"
+    ],
+    "styles": {
+        "css": "@media (min-width: 600px){& {min-height: 350px; height: 56vw; max-height:800px}}"
+    }
+}
