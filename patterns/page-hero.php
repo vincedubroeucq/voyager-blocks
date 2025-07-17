@@ -12,7 +12,7 @@
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-short"/>
 <!-- /wp:separator -->
 
-<!-- wp:post-title {"textAlign":"center"} /--></div>
+<!-- wp:post-title {"textAlign":"center","level":1} /--></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
