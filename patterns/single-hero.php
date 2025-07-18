@@ -14,7 +14,11 @@
 
 <!-- wp:post-title {"textAlign":"left","level":1} /-->
 
-<!-- wp:post-date /--></div>
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:post-date /-->
+
+<!-- wp:post-terms {"term":"category","prefix":"| "} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
