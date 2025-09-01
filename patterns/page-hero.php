@@ -12,7 +12,9 @@
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-short"/>
 <!-- /wp:separator -->
 
-<!-- wp:post-title {"textAlign":"center","level":1} /--></div>
+<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<h1 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"><?php single_post_title(); ?></h1>
+<!-- /wp:heading --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
