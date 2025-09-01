@@ -119,7 +119,7 @@
 					"slug": "10"
 				},
 				{
-					"name": "extra small",
+					"name": "Extra small",
 					"size": ".5rem",
 					"slug": "20"
 				},
@@ -159,7 +159,7 @@
 					"slug": "90"
 				},
 				{
-					"name": "auto",
+					"name": "Auto",
 					"size": "auto",
 					"slug": "auto"
 				}
