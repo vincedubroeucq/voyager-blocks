@@ -16,7 +16,11 @@
 <h1 class="wp-block-heading" style="margin-top:0;margin-bottom:0"><?php single_post_title(); ?></h1>
 <!-- /wp:heading -->
 
-<!-- wp:post-date /--></div>
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:post-date /-->
+
+<!-- wp:post-terms {"term":"category","prefix":"| "} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
