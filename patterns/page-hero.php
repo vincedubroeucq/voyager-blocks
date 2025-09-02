@@ -4,6 +4,7 @@
  * Slug: voyager/page-hero
  * Categories: Bannières
  */
+$page_title = voyager_hero_title();
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":70,"overlayColor":"contrast","isUserOverlayColor":true,"minHeight":350,"className":"is-style-dynamic-height","style":{"elements":{"link":{"color":{"text":"var:preset|color|grey-1"}}},"layout":{"selfStretch":"fixed","flexSize":"56vw"}},"textColor":"grey-1","layout":{"type":"constrained"}} -->
@@ -13,7 +14,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
-<h1 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"><?php single_post_title(); ?></h1>
+<h1 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"><?php echo wp_kses_post( $page_title ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
