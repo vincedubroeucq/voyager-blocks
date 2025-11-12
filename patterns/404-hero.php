@@ -14,12 +14,10 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
-<h1 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"><?php esc_html_e( 'It looks like this page does not exist. Please try a search.','voyager' ); ?></h1>
-<!-- /wp:heading --></div>
+<h1 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)">It looks like this page does not exist. Please try a search.</h1>
+<!-- /wp:heading -->
 
 <!-- wp:search {"label":"Rechercher","buttonText":"Rechercher"} /--></div>
-
-</div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
