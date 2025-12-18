@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Single hero
+ * Title: single-hero
  * Slug: voyager/single-hero
- * Categories: Bannières
+ * Inserter: no
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
@@ -17,7 +17,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:post-date /-->
+<div class="wp-block-group"><!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /-->
 
 <!-- wp:post-terms {"term":"category","prefix":"| "} /--></div>
 <!-- /wp:group --></div>
